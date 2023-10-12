@@ -1,0 +1,27 @@
+{
+  "name": "@cyf-super/reset-css",
+  "version": "0.0.1",
+  "description": "重置一些css默认样式",
+  "main": "reset-css-min.css",
+  "scripts": {
+    "build": "npx postcss index.css > reset-css-min.css"
+  },
+  "exports": {
+    ".": {
+      "import": "./reset-css-min.css"
+    }
+  },
+  "keywords": ["CSS", "reset"],
+  "author": "cyf-super",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyf-super/rest-css"
+  },
+  "private": false,
+  "devDependencies": {
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0"
+  }
+}
