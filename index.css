@@ -43,7 +43,6 @@ iframe {
   vertical-align: bottom;
 }
 
-
 /**
  * Reset form fields to make them styleable.
  * 1. Make form elements stylable across systems iOS especially.
@@ -71,20 +70,22 @@ textarea {
  * Correct cursors for clickable elements.
  */
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   cursor: pointer;
   border-style: none;
+  font-family: inherit;
 }
 
 button:disabled,
-[type="button"]:disabled,
-[type="reset"]:disabled,
-[type="submit"]:disabled {
+[type='button']:disabled,
+[type='reset']:disabled,
+[type='submit']:disabled {
   cursor: default;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }

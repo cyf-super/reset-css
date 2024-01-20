@@ -11,7 +11,13 @@
       "import": "./reset-css-min.css"
     }
   },
-  "keywords": ["CSS", "reset"],
+  "keywords": [
+    "css",
+    "reset"
+  ],
+  "files": [
+    "reset-css-min.css"
+  ],
   "author": "cyf-super",
   "license": "MIT",
   "repository": {
